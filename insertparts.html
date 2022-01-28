@@ -1,0 +1,58 @@
+
+<html> 
+<head>
+	 <title>BIKE DETAILS</title>
+	 <link rel="stylesheet" href="css/style17.css">
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button9 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button9:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+</style>
+</head>
+    <body >
+    	<div class="">
+		  <div class="logo">
+		         <a href="insert.html">  <img src="logo.jpeg" align="right"></a>
+		     </div> 
+		
+    	    <form class="register" method="post" action="inserparts.php">
+    		    <h2>ENTER PARTS DETAILS</h2>
+    		    <label><b>Part NO :</b></label> <br>
+    		    <input type="text" name="Part_No"  placeholder="Enter part id" required> <br> <br>
+    		    <label><b>Part Name :</b></label> <br>
+    		    <input type="text" name="Part_Name"  placeholder="Enter part Name" required> <br> <br>
+				<label><b>RC_NO :</b></label> <br>
+    		    <input type="text" name="RC_NO" placeholder="Enter Customer RC_NO" required> <br><br>
+                <label><b>Bill_No :</b></label> <br>
+    		    <input type="text" name="Bill_No" placeholder="Enter  Bill_No" required> <br><br>				
+                <label><b>PART COST:</b></label> <br>
+    		    <input type="text" name="Part_cost" placeholder="Enter parts cost" required> <br><br>					
+				
+				<a href="login.html"><button class="button button9">Submit</button></a>
+    	    </form>
+        </div>	
+
+    </body>
+
+</html>

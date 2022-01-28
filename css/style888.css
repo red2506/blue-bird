@@ -1,0 +1,28 @@
+
+ body{
+  font-family: 'Open Sans', sans-serif;
+ background-color: LightGray;
+ background-image: url(../service.jpg);
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+ 
+ 
+}
+
+ 
+#profile{
+	float:right;
+	text-align:center;
+}
+
+.logo img
+{         
+	 width: 400px;
+	 height: 100px;
+}
+
+
+
+
+

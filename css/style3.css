@@ -1,0 +1,121 @@
+
+ body{
+  font-family: 'Open Sans', sans-serif;
+  background-size: center;
+ background-image: url(../home.jpg);
+  background-size:100% ;
+  margin: 0 auto 0 auto;  
+  width:100%; 
+  text-align:center;
+  margin: 0 auto 0 auto;   
+}
+
+.button999{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.logo img
+{
+     	 
+	 
+	 width: 550px;
+	 height: 150px;
+	 position: fixed;
+    top: 0px;
+    right: 450px;
+}
+
+.button{
+   background:rgb(253, 151, 140, 0.78);
+   font-family:sans-serif;
+	width:250px;
+	height:40px;
+
+	border-background-color: rgb(0,0,0,1) ;
+}
+.button1{
+	position:absolute;
+	top:30%;
+	left:10%;
+	
+}
+.button2{
+      position:absolute;
+	  top:30%;
+		left:30%;
+		
+}
+.button3{
+      position:absolute;
+	  top:30%;
+		left:50%;
+		
+}
+.button4{
+      position:absolute;
+	  top:30%;
+		left:70%;
+		
+}
+.label{
+	background:rgb(197, 255, 122, 0.81);
+	position:absolute;
+	top:1%;
+	right:1%;
+}
+
+.logout{
+position:absolute;
+	top:1%;
+	right:1%;
+
+}
+
+
+
+
+.button66 {
+position:absolute;
+	top:1%;
+	right:1%;
+background-color: #f44336; /* Red */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.label11{
+	background:rgb(197, 255, 122, 0.81);
+	position:absolute;
+	top:1%;
+	right:1%;
+
+	
+}
+
+
+.button33 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.button33:hover {
+  background-color: #f44336;
+  color: white;
+}
